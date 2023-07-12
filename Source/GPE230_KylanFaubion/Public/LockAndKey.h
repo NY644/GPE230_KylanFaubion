@@ -17,6 +17,7 @@ class GPE230_KYLANFAUBION_API ALockAndKey : public ATriggerBox
 public:
 	ALockAndKey();
 
+	// Checks if the right actor is in the trigger box.
 	UFUNCTION()
 		void CheckActorType(class AActor* OverlappedActor, class AActor* OtherActor);
 
