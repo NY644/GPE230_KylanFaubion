@@ -30,6 +30,7 @@ void AMazeCharacter::BeginPlay()
 
 float AMazeCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCause)
 {
+	// If not dead, execute this if statement.
 	if (!_isDead)
 	{
 		//Subtract incoming damage
